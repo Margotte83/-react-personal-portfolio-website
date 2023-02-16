@@ -9,7 +9,7 @@ export const ProjectList = [
     image: Project0,
     skills: "React, Vite, Material-UI,",
     link: "",
-    link2: " ",
+    link2: "https://github.com/Margotte83/-react-personal-portfolio-website ",
   },
   {
     name: "Valentine's Day 2022",
