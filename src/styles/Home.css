@@ -1,0 +1,76 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #706fd3;
+}
+
+.about {
+  width: 100%;
+  height: calc(100vh-100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7e4af5;
+  color: white;
+}
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 70px;
+  color: white;
+  height: 50px;
+}
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+}
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+}
+.skills {
+  font-size: 35px;
+  color: #7e4af5;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills .list {
+  list-style: none;
+  width: 60%;
+  text-align: justify;
+}
+
+.list span {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 30px;
+  }
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+  .prompt svg {
+    width: 30px;
+    height: 30px;
+    
+  }
+  .skills {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+  .skills {
+    font-size: 30px;
+  }
+}
